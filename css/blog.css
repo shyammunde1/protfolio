@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700;1,800&family=Roboto:wght@300&display=swap');
+
+
+
+.blog-container {
+    margin: 20px;
+    font-family: "Fira Sans", sans-serif;
+   
+}
+
+.blog-container h1 {
+    font-family: "fira Sans", sans-serif;
+    color: grey;
+   
+}
+
+ .blogItem h4{
+    font-family: "Roboto",sans-serif;
+    color: rgb(10, 9, 9);
+    margin: 10px;
+    
+}
+
+.blogItem p{
+    font-family: "Fira Sans" sans-serif;
+    color: rgb(31, 31, 31);
+ margin: 10px;
+   
+   
+}
+
+.buttons{
+    text-align: start;
+}
+

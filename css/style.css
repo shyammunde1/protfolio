@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: rgb(214, 209, 209);
+    /* width: 160px; */
+    font-family: "Fira Sans",sans-serif;
+    height: 720px;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+.main{
+    background-color: rgb(216, 231, 82);
+    
+    width: 1660px;
+    height: 720px;
+    padding: 10px;
+    
+   
+}
+
+
+
+/* flex container */
+.container {
+    display: flex;
+   
+ 
+  }
+  
+ 
+
+
+.infocontainer{
+/* background-color:rgb(184, 37, 179) ; */
+height: 90vh;
+width: 76vw;
+margin: auto;
+}
+.logo{
+    margin-bottom: -15;
+    padding: 10px;
+}
+
+.infocontainer .devImage img{
+    height: 159px;
+    width: 170px;
+    margin: 2px;
+    padding: 7px;
+
+}
+
+.location{
+    text-align: end;
+    margin: 4px;
+    padding: 1px;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif ;
+}
+.buttons{
+    text-align: center;
+   /* margin: 20px;
+   padding: 5px; */
+}
+.btn{
+    margin: 5px;
+    padding: 2px;
+    height: 25px;
+   border: 0cap;
+    border-radius: 10px;
+    background-color: rgb(39, 104, 224);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+/* .button2{
+    margin: 5px;
+    padding: 2px;
+    height: 25px;
+    text-align: center;
+   
+    border-radius: 10px;
+    background-color: rgb(39, 104, 224);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+} */
+
+.btn:hover{
+    background-color: white;
+    color: rgb(41, 147, 189);
+}
+/* .button2:hover{
+    background-color: white ;
+    color:rgb(41, 147, 189);
+} */
+
+/* @media (max-width:1350px){
+*{
+    background-color: red;
+}
+
+.sidebar{
+    transform: translate(-443px);
+    position: absolute;
+}
+} */
+
+/* menu and close */
+.humburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.menu{}
+.cross{
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
